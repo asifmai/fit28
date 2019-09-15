@@ -1,0 +1,345 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-size: 1em; */
+  font-family: Oswald, sans-serif;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  background: url(images/rectangle_26.jpg) no-repeat;
+  min-height: 95vh;
+  background-size: cover;
+  background-position: center left;
+  position: relative;
+}
+
+.nav-item {
+  margin-right: 1em;
+  border-bottom: 2px solid transparent;
+  transition: 200ms all ease-in-out;
+}
+
+.nav-item .nav-link {
+  color: #ffffff !important;
+  font-family: Oswald, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.nav-item.active {
+  border-bottom: 2px solid #57A8DD;
+}
+
+.nav-item:hover {
+  border-color: #57A8DD;
+}
+
+.navbar-toggler {
+  border-color: #57A8DD !important;
+  color: #57A8DD !important;
+}
+
+.hero-content {
+  margin-top: 9em;
+}
+
+.heading3 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.heading1 {
+  color: #ffffff;
+  font-size: 100px;
+  letter-spacing: 0;
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.fit-button {
+    min-height: 54px;
+    padding: 18px 29px;
+    position: relative;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    background: #22abe2;
+    outline: none;
+    border: none;
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.fit-button.white {
+  color: white;
+}
+
+.fit-button.small {
+  padding: 10px 29px;
+  min-height: unset;
+}
+
+.down-button {
+  position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #22abe2;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.section2 {
+  background: #0F0F0F;
+  margin-top: -2px;
+}
+
+.underline-heading {
+  margin: 0 0 0 2px;
+    color: #8e8e8e;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(142, 142, 142, 0.5);
+    padding-bottom: 0.5em;
+}
+
+.heading2 {
+  margin: 8px 0 0;
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.section2-content {
+  display: flex;
+  padding: 2em 8em;
+}
+
+.body-text {
+  color: #888888;
+  font-family: Lato, sans-serif;
+}
+
+.section3 {
+  padding: 5em 0;
+  background: #000000;
+}
+
+.section-img-left, .section-img-right {
+  background: #000000;
+  padding: 3em 0;
+  margin-top: -2px;
+}
+
+.section-img-content{
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.coach-features {
+    color: #ffffff;
+    line-height: 41px;
+    text-transform: uppercase;
+}
+
+.membership-section {
+  background: #101010;
+  padding: 3em 0 10em 0;
+}
+
+.membership-section .container {
+  background: url(images/fit28_2.png) no-repeat;
+  background-size: cover;
+}
+
+.mem-card {
+  background: #22ABE2;
+    padding: 3em 2.5em;
+}
+
+.mem-card.dark {
+  background: #026B95;
+}
+
+.mem-card .feature {
+  line-height: 43px;
+  font-size: 18px;
+}
+
+.mem-card .feature:before {
+  content: '';
+    display: inline-block;
+    background: url(images/check-mark.png) no-repeat;
+    width: 27px;
+    height: 14px;
+}
+
+.mem-card .feature.no-bullet:before {
+  content: '';
+  display: none;
+}
+
+.mem-card .feature.no-bullet {
+  margin-left: 1.4em;
+}
+
+.location-section {
+  padding: 6em 0;
+  background: #080808;
+}
+
+.location-section .container {
+  background: url(images/dottod-world-map_transpar.png) no-repeat;
+  background-position: center right;
+}
+
+.location-card {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.location-card .location-icon {
+  margin-right: 1em;
+}
+
+.location-card .location-info {
+  width: 100%;
+}
+
+.location-card .location-info .location-name {
+  color: #ffffff;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 0.4em;
+}
+
+.location-card .location-info .location-text {
+  color: #919191;
+  margin-bottom: 0.4em;
+}
+
+.fit-button.extra-small {
+  font-size: 1em;
+}
+
+.fit-button.transparent {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.fit-input {
+  border-radius: 21px;
+    border: 2px solid white;
+    background: transparent;
+    padding: 5px 13px;
+    font-size: 18px;
+    outline: none;
+    color: white;
+}
+
+.fit-input::placeholder { /* Firefox, Chrome, Opera */ 
+  color: white; 
+} 
+
+.fit-input:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+  color: white; 
+} 
+
+.fit-input::-ms-input-placeholder { /* Microsoft Edge */ 
+  color: white; 
+} 
+
+.contact-section {
+  padding: 4em 0;
+  background: white;
+}
+
+.heading1.black, .heading2.black, .heading3.black {
+  color: #080808;
+}
+
+.contact-section .container {
+  background: url(images/fit28_copy_3.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.fit-input-light {
+  outline: none;
+    border: 1px solid black;
+    width: 100%;
+    padding: 8px 6px;
+    margin-bottom: 1.5em;
+}
+
+.contact-bar {
+  background: #000000;
+  padding: 1em 0;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.contact-bar .social-icon {
+  color: black;
+  background: #FFFFFF;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+.footer {
+  background: white;
+  padding: 2em 0;
+}
+
+.footer-text {
+    color: #131313;
+    font-size: 20px;
+}
+
+.footer-link {
+  color: black;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 992px) {
+  .section2-content {
+    padding: 2em;
+  }
+
+  .heading1 {
+    font-size: 70px;
+  }
+}
